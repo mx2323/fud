@@ -1,2 +1,50 @@
-bar1
-baz
+
+steps:
+  NewModel1:
+    type: sql
+    operation:
+      metadata:
+        columns: []
+        join:
+          joinCondition: ""
+      lineageGroup: {}
+      sqlType: View
+      type: sql
+  NewModel2:
+    type: sql
+    operation:
+      metadata:
+        columns: []
+        join:
+          joinCondition: ""
+      lineageGroup: {}
+      sqlType: View
+      type: sql
+  NewModel3:
+    type: sql
+    operation:
+      metadata:
+        columns: []
+        join:
+          joinCondition: ""
+      lineageGroup: {}
+      sqlType: View
+      type: sql
+  NewModel4:
+    type: sql
+    operation:
+      metadata:
+        columns: []
+        join:
+          joinCondition: ""
+      lineageGroup: {}
+      sqlType: View
+      type: sql
+      sql: |-
+        SELECT
+          *
+        FROM
+          ${NewModel1}
+task:
+  schedule: none
+  name: Task 1
