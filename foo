@@ -1,6 +1,6 @@
 
 steps:
-  NewModel1:
+  NewModel1a:
     type: sql
     operation:
       metadata:
