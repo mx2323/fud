@@ -15,6 +15,7 @@ steps:
     operation:
       metadata:
         columns: []
+	newColumn here
         join:
           joinCondition: ""
       lineageGroup: {}
